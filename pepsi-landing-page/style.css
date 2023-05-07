@@ -1,9 +1,23 @@
+body{
+    background-color: #000;
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+
+
+
 .my-nav {
     width: 100%;
     color: #fff;
     background: #0065c3 !important;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -57,22 +71,24 @@
 
 
 .containor1 {
-    width: auto;
+    display: flex;
     align-items: center;
     margin: 0%;
 }
 
 .containor1 .bgright {
 
-    width: 60%;
+    width: 70%;
     margin: 4% auto;
 
 }
+
 
 .containor1 .bgleft {
     margin-top: 15%;
     position: relative;
     right: 15%;
+   
 }
 
 
@@ -88,7 +104,7 @@
 
 .containor1 .video {
     margin: 0 auto;
-    align-items: center;
+    align-content: center;
     text-align: center;
 
 }
@@ -97,8 +113,8 @@
 
 @media screen and (max-width: 595px) {
     .containor1 .video {
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
     }
 
 }
@@ -173,6 +189,13 @@
     .contaionor3 .left {
         width: 80%;
     }
+    .containor1 .bgright {
+
+        width: 100%;
+        margin: 4% auto;
+    
+    }
+
 
 }
 
@@ -272,7 +295,7 @@
     letter-spacing: -3px;
     font-weight: 800;
     text-align: center;
-
+    background-color: #fff
 }
 
 .innercontainor {
