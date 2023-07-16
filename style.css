@@ -1,0 +1,358 @@
+body{
+    background-color: #000;
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.my-nav {
+    width: 100%;
+    color: #fff;
+    background: #0065c3 !important;
+    margin: 0;
+    padding: 0;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 780;
+    font-size: 15px;
+    position: fixed;
+    z-index: 2;
+}
+
+.s-btn {
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 75%;
+    padding: 0.5% 3%;
+    text-align: center;
+}
+
+.s-btn:hover {
+    background-color: #fff;
+    color: #034da2;
+}
+
+.t-btn {
+    background-color: #fff;
+    color: #034da2;
+}
+
+
+
+
+
+
+/* Containo One */
+
+@media screen and (max-width: 479px) {
+    .md-btn {
+        display: none;
+    }
+
+    .containor1 .bgleft {
+        margin-top: 100px;
+    }
+
+    .containor1 .sticker {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.containor1 {
+    display: flex;
+    align-items: center;
+    margin: 0%;
+}
+
+.containor1 .bgright {
+
+    width: 70%;
+    margin: 4% auto;
+
+}
+
+
+.containor1 .bgleft {
+    margin-top: 15%;
+    position: relative;
+    right: 15%;
+   
+}
+
+
+.containor1 .sticker {
+    margin: 0%;
+    position: relative;
+    left: 53%;
+    z-index: 1;
+    width: 22%;
+}
+
+
+
+.containor1 .video {
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width: 595px) {
+    .containor1 .video {
+        width: 80%;
+        height: 80%;
+    }
+
+}
+
+/* Containor two  */
+
+.containor2 {
+    width: auto;
+    margin: 0%;
+    padding: 5%;
+    background-color: #1e63a2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.containor2 .bgleft2 {
+    margin: 0% auto;
+    text-align: center;
+}
+
+.containor2 .bgright2 {
+    margin: 0% auto;
+    text-align: center;
+}
+
+.containor2 .bgtxtright2 {
+    font-size: 150%;
+
+
+}
+
+.containor2 .my-btn {
+    width: 140px;
+    margin: 0% auto;
+    border-radius: 34px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.my-btn:hover {
+    color: #0065c3;
+}
+
+
+
+
+/*Start Containor3*/
+
+.contaionor3 {
+    width: auto;
+    margin: 0%;
+    align-items: center;
+    background-color: #265cc5;
+    justify-content: center;
+
+}
+
+.contaionor3 .left {
+    width: 27%;
+
+}
+
+.contaionor3 .txtleft {
+    text-align: center;
+    color: #fff;
+    background-color: #1b3aee;
+    padding: 4px;
+}
+
+@media screen and (max-width: 990px) {
+    .contaionor3 .left {
+        width: 80%;
+    }
+    .containor1 .bgright {
+
+        width: 100%;
+        margin: 4% auto;
+    
+    }
+
+
+}
+
+
+/* Containor 4 */
+
+.containor4 {
+    width: auto;
+    margin: 0%;
+    align-items: center;
+    background-color: #1e63a2;
+}
+
+.containor4 .img-lf {
+    margin: 3% auto;
+
+}
+
+.main-vd {
+    width: auto;
+    height: auto;
+}
+
+/*Containor5  */
+
+.containor5 {
+
+    width: auto;
+    margin: 0%;
+    background-color: #034da2;
+    align-items: center;
+    padding-top: 5%;
+    justify-content: center;
+
+}
+
+.containor5 .img-rg-5 {
+    margin: 5% auto;
+}
+
+
+
+/* Contaionr6 */
+
+.containor6 {
+    position: relative;
+    width: auto;
+    margin: 0%;
+
+    background-color: #0065c3;
+    padding: 8%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containor6 p {
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 990px) {
+    .img-rg-6 {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+
+    }
+
+    .containor6 p {
+        width: auto;
+    }
+
+    .left-6 {
+        padding-top: 70%;
+    }
+
+    .containor7 h1 {
+        padding: 5%;
+    }
+}
+
+
+/* Containor7 */
+.containor7 {
+    justify-content: center;
+
+}
+
+.containor7 h1 {
+    font-size: 350%;
+    color: #035aab;
+    letter-spacing: -3px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #fff
+}
+
+.innercontainor {
+    justify-content: center;
+}
+
+
+.twitter:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.facebook:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.instagram:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.youtube:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+.tiktok:hover {
+    opacity: 0.7;
+    overflow: scroll;
+}
+
+
+.footer {
+    width: auto;
+    background-color: #0065c3;
+    align-items: center;
+    padding: 10% 6%;
+    color: #fff;
+}
+
+.footer .textend {
+    width: 19%;
+    font-weight: 700;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-side {
+    margin: 0% auto;
+
+}
+
+.about h6 {
+    font-weight: 800;
+}
